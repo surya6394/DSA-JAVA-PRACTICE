@@ -68,6 +68,7 @@ public class Print1ToN {
 //        printNum(1,n);
         System.out.println("Print N - 1");
         printNum2(n,n);
+        System.out.println("My name is Surya Pratap.");
 
     }
 }
