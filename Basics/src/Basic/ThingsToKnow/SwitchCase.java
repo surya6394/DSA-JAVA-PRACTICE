@@ -11,13 +11,13 @@ for 2 print Tuesday and so on for 7 print Sunday.
 
     public static String CheckDay(int n){
         return switch (n) {
-            case 1 -> "Monday";
-            case 2 -> "Tuesday";
-            case 3 -> "Wednesday";
-            case 4 -> "Thursday";
-            case 5 -> "Friday";
-            case 6 -> "Saturday";
-            case 7 -> "Sunday";
+            case 1 -> "Monday Check";
+            case 2 -> "Tuesday Check";
+            case 3 -> "Wednesday Check";
+            case 4 -> "Thursday Check";
+            case 5 -> "Friday Check";
+            case 6 -> "Saturday Check";
+            case 7 -> "Sunday Check";
             default -> "Invalid Check";
         };
     }
